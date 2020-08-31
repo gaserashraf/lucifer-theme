@@ -1,0 +1,283 @@
+@font-face {
+  font-family: font;
+  src: url(Supernatural_Knight.ttf);
+}
+body.dr
+{
+  background:#181818;
+}
+body.wh
+{
+  background:white;
+}
+a {
+  color: inherit; /* blue colors for links too */
+  text-decoration: inherit; /* no underline */
+}
+.text-secondary
+{
+  color:#444;
+}
+.text-black
+{
+  color:black;
+}
+.bg-black
+{
+  background:black;
+}
+.container
+{
+  width: 90%;
+}
+
+hr
+{
+  background: #3D3A3A;
+}
+#dw
+{
+  position: fixed;
+  top: 70px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  background:#E50F17;
+  border-radius: 50%;
+  outline:none;
+  border:none;
+  cursor: pointer;
+  z-index: 2;
+  color:white;
+}
+#upBut
+{
+  position: fixed;
+  bottom: 10px;
+  left: 5px;
+  width: 40px;
+  height: 40px;
+  
+  border-radius: 50%;
+  outline:none;
+  border:none;
+  cursor: pointer;
+}
+#upBut.wh
+{
+  background:white;
+}
+#upBut.dr
+{
+  background:#181818;
+}
+#upBut:hover
+{
+  background:rgb(145, 145, 145);
+}
+#upBut i
+{
+  font-size:20px
+}
+/*navbar*/
+.navbar
+{
+  background:black;
+}
+.navbar .navbar-brand,.lucy
+{
+  font-family: font;
+  text-transform: uppercase;
+}
+.port-item
+  {
+    border-bottom:2px solid #E50F17;
+  }
+  .port-item.collapsed
+  {
+    border-bottom:none;
+
+  }
+/*header*/
+@media (min-width: 1000px) {
+  #main-header
+  {
+    background:url("../img/cover1.jpg");
+    background-size: cover;
+    min-height: 650px;
+  }
+  #main-header .text-bl
+  {
+    background-image: linear-gradient(to right, #181818 , #18181800);
+    height: 650px;
+  }
+  #main-header .text-wh
+  {
+    background-image: linear-gradient(to right, #ffffff54 , #88878700);
+    height: 650px;
+  }
+  #main-header .cont
+  {
+    margin-top:30%;
+  }
+  #main-header .lucy
+  {
+    font-size:50px;
+  }
+
+  /*end header*/
+
+  /*start cast*/
+  #cast .box
+  {
+    transition: transform .25s ease-in-out;
+
+  }
+  #cast .box:hover
+  {
+    opacity: .8;
+    transform: scale(1.1);
+  }
+  /*end cast*/
+
+  /*silder*/
+  .carousel-item .box
+  {
+    height: auto;
+    width: 655px;
+  }
+  .carousel .carousel-control-prev,.carousel .carousel-control-next
+  {
+    width: auto;
+    
+  }
+  .carousel .carousel-control-prev
+  {
+    left: -1.7%;
+  }
+  .carousel .carousel-control-next
+  {
+    right:-1.7%;
+  }
+  .carousel .carousel-control-prev-icon
+  {
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff010e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  .carousel .carousel-control-next-icon
+  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff010e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  /*silder*/
+
+  /*epesote*/
+  
+  .port-item span
+  {
+    font-weight: bold;
+    font-size:24px;
+    cursor: pointer;
+  }
+  .s .box
+  {
+    width: 24%;
+  }
+  .s .st
+  {
+    width: 50%;
+  }
+  /*epsseote*/
+}
+
+
+
+
+/* for mob*/
+@media (max-width: 1000px) {
+  #main-header
+  {
+    background:url("../img/cover.jpg");
+    background-size: cover;
+    min-height: 300px;
+    background-position: center;
+    overflow: hidden;
+  }
+  #main-header .text-bl
+  {
+    
+    height: 650px;
+    background-image: linear-gradient(to top, #000000 , #18181800);
+
+  }
+  #main-header .text-wh
+  {
+    
+    height: 650px;
+    background-image: linear-gradient(to top, #ffffff54 , #88878700);
+
+  }
+  #main-header .cont
+  {
+    margin-top:80%;
+  }
+  #main-header .lucy
+  {
+    font-size:10vw;
+  }
+  .carousel-item .box
+  {
+    height: auto;
+    width: auto;
+  }
+  .carousel .carousel-control-prev,.carousel .carousel-control-next
+  {
+    width: auto;
+    
+  }
+  .carousel .carousel-control-prev
+  {
+    left: -7%;
+  }
+  .carousel .carousel-control-next
+  {
+    right:-7%;
+  }
+  .carousel .carousel-control-prev-icon
+  {
+    background-image:url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff010e' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+  }
+  .carousel .carousel-control-next-icon
+  {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23ff010e' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+  }
+  .port-item span
+  {
+    font-weight: bold;
+    font-size:6vw;
+    cursor: pointer;
+  }
+  .s .box
+  {
+    width: 100%;
+  }
+  .s .st
+  {
+    width: 100%;
+  }
+}
+@media (min-width: 1200px){
+.container {
+    max-width: 90%;
+}
+
+@media (min-width: 992px){
+.container {
+    max-width: 90%;
+}
+@media (min-width: 768px){
+.container {
+    max-width: 90%;
+}
+@media (min-width: 576px){
+.container {
+    max-width: 90%;
+}
