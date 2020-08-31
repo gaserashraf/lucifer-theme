@@ -15,7 +15,8 @@
 # 😈 lucifer
 lucifer theme is a simple website about tv show
 ## 💻 Build with
-* vanilla javascript
+* html5
+* css3
 * bootstrap4
 ## 📷 Screen Shots
 ### 🌙 Dark Theme
