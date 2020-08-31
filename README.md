@@ -13,7 +13,7 @@
 </div>
 
 # 😈 lucifer
-Lucifer Theme
+lucifer theme is a simple website about tv show
 ## 💻 Build with
 * vanilla javascript
 * bootstrap4
